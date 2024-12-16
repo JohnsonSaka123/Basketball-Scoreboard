@@ -9,13 +9,19 @@ body{
   align-items: center;
   justify-content: center;
 }
+.body-main{
+  display: flex;
+  flex-direction: column;
+  background-color: #1B244A;
+  padding: 20px 50px;
+  gap: 20px;
+}
 .main{
   display: flex;
   justify-content: space-between;
   justify-content: center;
   gap: 60px;
-  background-color: #1B244A;
-  padding: 20px 50px;
+  
 }
 h1{
   color: #EEEEEE;
@@ -57,4 +63,13 @@ h1{
   text-align: right;
   padding-top: 12px;
   padding-left: 5px;
+}
+
+.clear-btn{
+  border: none;
+  padding: 5px 10px;
+  width: 70px;
+  border-radius: 5px;
+  color: white;
+  background-color: #F94F6D;
 }

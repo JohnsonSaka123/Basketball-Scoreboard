@@ -32,3 +32,10 @@ function add2scoreRight(){
 function add3scoreRight(){
   scoreRightElementDisplay.textContent = currentScoreRight +=3;
 }
+
+function clearScores(){
+  scoreLeftElementDisplay.textContent = 0;
+  scoreRightElementDisplay.textContent = 0;
+  //currentScoreRight = 0;
+  //currentScoreLeft = 0;
+}

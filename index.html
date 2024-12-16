@@ -8,30 +8,38 @@
   <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
 </head>
 <body>
-  <section class="main">
-    <div class="home-section">
-      <h1>HOME</h1>
-      <div class="scoreboard">
-        <div id="current-scoreLeft">0</div>
+  <section class="body-main">
+    <section class="main">
+      <div class="home-section">
+        <h1>HOME</h1>
+        <div class="scoreboard">
+          <div id="current-scoreLeft">0</div>
+        </div>
+        <div class="points-section">
+          <button class="btn" type="button" onclick="add1scoreLeft()">+1</button>
+          <button class="btn" type="button" onclick="add2scoreLeft()">+2</button>
+          <button class="btn" type="button" onclick="add3scoreLeft()">+3</button>
+        </div>
       </div>
-      <div class="points-section">
-        <button class="btn" type="button" onclick="add1scoreLeft()">+1</button>
-        <button class="btn" type="button" onclick="add2scoreLeft()">+2</button>
-        <button class="btn" type="button" onclick="add3scoreLeft()">+3</button>
+      <div class="guest-section">
+        <h1>GUEST</h1>
+        <div class="scoreboard">
+          <div id="current-scoreRight">0</div>
+        </div>
+        <div class="points-section">
+          <button class="btn" type="button" onclick="add1scoreRight()">+1</button>
+          <button class="btn" type="button" onclick="add2scoreRight()">+2</button>
+          <button class="btn " type="button" onclick="add3scoreRight()">+3</button>
+        </div>
       </div>
+    </section>
+
+    <div class="btn-section">
+      <button type="button" class="clear-btn" onclick="clearScores()">Clear</button>
     </div>
-    <div class="guest-section">
-      <h1>GUEST</h1>
-      <div class="scoreboard">
-        <div id="current-scoreRight">0</div>
-      </div>
-      <div class="points-section">
-        <button class="btn" type="button" onclick="add1scoreRight()">+1</button>
-        <button class="btn" type="button" onclick="add2scoreRight()">+2</button>
-        <button class="btn " type="button" onclick="add3scoreRight()">+3</button>
-      </div>
-    </div>
+
   </section>
+  
   <script src="index.js"></script>
 </body>
 </html>
