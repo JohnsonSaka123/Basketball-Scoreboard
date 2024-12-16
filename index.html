@@ -12,23 +12,23 @@
     <div class="home-section">
       <h1>HOME</h1>
       <div class="scoreboard">
-        <p class="current-score">0</p>
+        <div id="current-scoreLeft">0</div>
       </div>
       <div class="points-section">
-        <div class="p1" id="pressme">+1</div>
-        <div class="p2" id="pressme">+2</div>
-        <div class="p3" id="pressme">+3</div>
+        <button class="btn" type="button" onclick="add1scoreLeft()">+1</button>
+        <button class="btn" type="button" onclick="add2scoreLeft()">+2</button>
+        <button class="btn" type="button" onclick="add3scoreLeft()">+3</button>
       </div>
     </div>
     <div class="guest-section">
       <h1>GUEST</h1>
       <div class="scoreboard">
-        <p class="current-score">0</p>
+        <div id="current-scoreRight">0</div>
       </div>
       <div class="points-section">
-        <div class="p1" id="pressme">+1</div>
-        <div class="p2" id="pressme">+2</div>
-        <div class="p3" id="pressme">+3</div>
+        <button class="btn" type="button" onclick="add1scoreRight()">+1</button>
+        <button class="btn" type="button" onclick="add2scoreRight()">+2</button>
+        <button class="btn " type="button" onclick="add3scoreRight()">+3</button>
       </div>
     </div>
   </section>
