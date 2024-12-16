@@ -36,6 +36,6 @@ function add3scoreRight(){
 function clearScores(){
   scoreLeftElementDisplay.textContent = 0;
   scoreRightElementDisplay.textContent = 0;
-  //currentScoreRight = 0;
-  //currentScoreLeft = 0;
+  currentScoreRight = 0;
+  currentScoreLeft = 0;
 }
